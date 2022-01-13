@@ -6,6 +6,8 @@ I was able to identify colors on a cube and return an array with the data for th
 
 This was done using a **Raspberry Pi 4** and a **camera**. The **PiCamera** and **OpenCV** python libraries were used.
 
+mainFile.py, imageGetter.py, imageProcessor3.py, and color.py are the necessary files for this program.
+
 ## Brief Overview
 
 1 - Camera takes pictures of all sides full color (cube is not mixed).
