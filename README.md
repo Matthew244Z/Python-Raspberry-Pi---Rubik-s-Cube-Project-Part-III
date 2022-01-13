@@ -9,16 +9,14 @@ This was done using a **Raspberry Pi 4** and a **camera**. The **PiCamera** and 
 ## Brief Overview
 
 1 - Camera takes pictures of all sides full color (cube is not mixed).
-
-    *Cube needs to be moved manually at the moment. Plans for the future is to have a mechanical arm to do this.*
+*Cube needs to be moved manually at the moment. Plans for the future is to have a mechanical arm to do this.*
     
 2 - Pictures are stored in a folder.
 
 3 - Get rgb color of each piece (color) of all sides using **OpenCV** (9 pieces per side, 6 sides total).
 
 4 - Get mean rgb color value for each color and add boundaries to the value.
-
-    *We now have a boundary for all colors*
+*We now have a boundary for all colors*
     
 5 - Mix cube and take picture again.
 
